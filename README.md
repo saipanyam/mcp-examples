@@ -1,33 +1,22 @@
-# mcp-examples
-A repository that show cases examples of implementing Model Context Protocol features
+# MCP Examples
 
-## File System Resources in MCP
+A repository that showcases examples of implementing **Model Context Protocol (MCP)** features. This repository serves as a resource for developers to understand and build upon MCP implementations using Python.
 
- `resources/file-system-resources.py` creates two resources:
+## Repository Overview
 
-- file://read/{path} - Reads a file's contents or lists a directory
+This repository includes Python-based examples demonstrating the various capabilities and features of the Model Context Protocol. Each example is designed to be self-contained and focuses on specific aspects of MCP, making it easy for developers to learn and adapt the concepts into their own projects.
 
-- file://info/{path} - Returns metadata about a file or directory
+## Features
 
-## Database Resources in MCP
+- Comprehensive examples of **Model Context Protocol** implementations.
+- Easy-to-follow Python code for quick understanding.
+- Modular and extensible code structure to suit a variety of use cases.
 
-Here's an example using SQLite database resources. This example creates three database resources:
+## Getting Started
 
-- db://table/{table} - Gets all records from a table
+To get started with the repository:
 
-- db://record/{table}/{id} - Gets a specific record
-
-- db://schema/{table} - Gets schema information about a table
-- 
-## API Resources in MCP
-
-Here's an example using external API resources (weather, news and GitHub). This example creates multiple API-based resources:
-
-- api://weather/current/{city} - Gets current weather for a city
-
-- api://weather/forecast/{city}/{days} - Gets a multi-day forecast for a city
-
-- api://news/{topic}/{count} - Gets news articles on a specific topic
-
-- api://github/repos/{username} - Gets GitHub repositories for a user
-
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/saipanyam/mcp-examples.git
+   cd mcp-examples
