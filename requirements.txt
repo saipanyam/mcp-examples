@@ -1,0 +1,26 @@
+# Core MCP dependencies
+mcp[cli]>=1.6.0  # Model Context Protocol Python SDK
+
+# HTTP and API dependencies
+httpx>=0.24.0    # Async HTTP client for API calls
+
+# Data processing
+pandas>=2.0.0    # Data manipulation and analysis
+numpy>=1.24.0    # Numerical computing
+scipy>=1.12.0    # Scientific computing (for distance calculations)
+
+# Client integrations
+anthropic>=0.18.0  # Anthropic API client for Claude
+
+# Additional utilities
+uuid>=1.30       # UUID generation
+
+# Note: The following are built-in modules and don't need to be specified
+# - asyncio        (Async functionality)
+# - json           (JSON parsing)
+# - datetime       (Date and time handling)
+# - sqlite3        (SQLite database)
+# - threading      (Thread management)
+# - time           (Time handling)
+# - pathlib        (File path management)
+# - io             (I/O handling)
